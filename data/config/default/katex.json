@@ -8,5 +8,10 @@
       "main": "//unpkg.com/katex/dist/katex.min.css"
     }
   },
-  "options": {}
+  "options": {
+    "delimiters": [
+      {"left": "$$", "right": "$$", "display": true},
+      {"left": "$", "right": "$", "display": false}
+    ]
+  }
 }
